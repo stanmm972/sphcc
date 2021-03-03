@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'partenaire', to: 'pages#partenaire'
   get 'journal', to: 'pages#journal'
   get 'dons', to: 'pages#dons'
+  resources :articles
 end
